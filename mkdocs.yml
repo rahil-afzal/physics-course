@@ -1,21 +1,132 @@
-site_name : Phy 1203 - Physics (BGE)
+site_name: Physics Courses
+site_description: Course materials, lecture notes, problems, and laboratory resources
+site_author: Rahil Afzal Nihal
+
 theme:
   name: material
-  features: [navigation.sections, toc.integrate]
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
 markdown_extensions:
   - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
-  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 nav:
   - Home: index.md
-  - Module 1 - Dynamical System:
-      - Rotational Kinematics: modules/01-dynamical-system/01-rotational-k.md
-  - Module 4 - Electric Charges and Current:
-      - Charges: modules/04-electric/01-charges.md
-      - Capacitance : modules/04-electric/02-capacitance.md
-      - Electric Current : modules/04-electric/03-current-ohm.md
+
+  - PHY 2105:
+      - Overview: phy2105/index.md
+      - Syllabus: phy2105/syllabus.md
+      - Schedule: phy2105/schedule.md
+
+      - Simple Harmonic Motion:
+          - Fundamentals of SHM: phy2105/shm/01-fundamentals.md
+          - Dynamics, Energy & Phase: phy2105/shm/02-dynamics-energy-phase.md
+          - Applications & Problems: phy2105/shm/03-applications-problems.md
+
+      - Damped Harmonic Motion:
+          - Damping & Free Oscillation: phy2105/dhm/01-damping.md
+          - Damped Oscillation: phy2105/dhm/02-damped-oscillation.md
+
+      - Progressive Waves:
+          - Wave Motion: phy2105/progressive-waves/01-wave-motion.md
+          - Mathematical Description: phy2105/progressive-waves/02-wave-equation.md
+          - Superposition & Energy: phy2105/progressive-waves/03-energy-superposition.md
+
+      - Electrostatics:
+          - Electric Charge & Field: phy2105/electrostatics/01-electric-charge-field.md
+          - Electric Flux: phy2105/electrostatics/02-electric-flux.md
+          - Gauss's Law: phy2105/electrostatics/03-gauss-law.md
+
+  - PHY 1203:
+      - Overview: phy1203/index.md
+      - Syllabus: phy1203/syllabus.md
+      - Schedule: phy1203/schedule.md
+
+      - Rotational Dynamics:
+          - Angular Motion: phy1203/rotational-dynamics/01-angular-motion.md
+          - Torque & Angular Momentum: phy1203/rotational-dynamics/02-torque-angular-momentum.md
+          - Rotational Energy: phy1203/rotational-dynamics/03-rotational-energy.md
+
+      - Oscillations:
+          - Periodic Motion: phy1203/oscillation/01-periodic-motion.md
+          - Simple Harmonic Motion: phy1203/oscillation/02-shm.md
+          - Applications: phy1203/oscillation/03-applications.md
+
+      - Fluid Mechanics:
+          - Pressure & Buoyancy: phy1203/fluid-mechanics/01-pressure-buoyancy.md
+          - Fluid Flow: phy1203/fluid-mechanics/02-fluid-flow.md
+          - Viscosity & Poiseuille's Law: phy1203/fluid-mechanics/03-viscosity-poiseuille.md
+
+      - Sound Waves:
+          - Wave Properties: phy1203/sound-waves/01-wave-properties.md
+          - Sound & Hearing: phy1203/sound-waves/02-sound-hearing.md
+          - Resonance: phy1203/sound-waves/03-resonance.md
+
+      - Electric Charges:
+          - Charge & Electric Field: phy1203/electric-charges/01-charge-field.md
+          - Electric Potential: phy1203/electric-charges/02-electric-potential.md
+
+      - Bioelectricity:
+          - Membrane Potential: phy1203/bioelectricity/01-membrane-potential.md
+          - Nerve Signals: phy1203/bioelectricity/02-nerve-signals.md
+          - Medical Applications: phy1203/bioelectricity/03-medical-applications.md
+
+      - Magnetism:
+          - Magnetic Field: phy1203/magnetism/01-magnetic-field.md
+          - Magnetic Force: phy1203/magnetism/02-magnetic-force.md
+          - Applications: phy1203/magnetism/03-applications.md
+
+      - MRI:
+          - Physical Principle: phy1203/mri/01-principle.md
+          - Magnetic Resonance: phy1203/mri/02-magnetic-resonance.md
+          - MRI Imaging: phy1203/mri/03-imaging.md
+
+  - PHY 2106:
+      - Overview: phy2106/index.md
+      - Syllabus: phy2106/syllabus.md
+      - Laboratory Guidelines: phy2106/lab-guidelines.md
+      - Report Guidelines: phy2106/report-guidelines.md
+
+      - Experiments:
+          - Experiment 01: phy2106/experiments/01-experiment.md
+          - Experiment 02: phy2106/experiments/02-experiment.md
+          - Experiment 03: phy2106/experiments/03-experiment.md
+          - Experiment 04: phy2106/experiments/04-experiment.md
+          - Experiment 05: phy2106/experiments/05-experiment.md
+          - Experiment 06: phy2106/experiments/06-experiment.md
+          - Experiment 07: phy2106/experiments/07-experiment.md
