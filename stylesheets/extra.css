@@ -1,0 +1,54 @@
+/* Overall content width */
+.md-grid {
+  max-width: 1440px;
+}
+
+/* Improve readability of main text */
+.md-content {
+  line-height: 1.75;
+}
+
+/* Headings */
+.md-content h1 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.md-content h2 {
+  margin-top: 2rem;
+}
+
+/* Mathematical equations */
+.arithmatex {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  font-size: 0.9rem;
+}
+
+/* Better spacing around images */
+.md-typeset img {
+  border-radius: 6px;
+}
+
+/* Course cards / custom homepage blocks */
+.course-card {
+  padding: 1.2rem;
+  margin: 1rem 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.6rem;
+  background: var(--md-default-bg-color);
+}
+
+.course-card h3 {
+  margin-top: 0;
+}
+
+/* Make footer cleaner */
+.md-footer-meta {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

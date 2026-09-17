@@ -1,0 +1,3340 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Course materials, lecture notes, problems, and laboratory resources">
+      
+      
+        <meta name="author" content="Rahil Afzal Nihal">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Current, Resistance, and Ohm's Law - Physics Courses</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#current-resistance-and-ohms-law" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Physics Courses" class="md-header__button md-logo" aria-label="Physics Courses" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Physics Courses
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Current, Resistance, and Ohm's Law
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../phy2105/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  PHY 2105
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  PHY 1203
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../phy2106/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  PHY 2106
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Physics Courses" class="md-nav__button md-logo" aria-label="Physics Courses" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Physics Courses
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../phy2105/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PHY 2105
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PHY 2105
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2105/syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Syllabus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy2105/schedule.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Schedule
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Simple Harmonic Motion
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Simple Harmonic Motion
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2105/shm/01-fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fundamentals of SHM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2105/shm/02-dynamics-energy-phase/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dynamics, Energy & Phase
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy2105/shm/03-applications-problems.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Applications & Problems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Damped Harmonic Motion
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Damped Harmonic Motion
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2105/dhm/01-damping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Damping & Free Oscillation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2105/dhm/02-damped-oscillation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Damped Oscillation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Progressive Waves
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Progressive Waves
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2105/progressive-waves/01-wave-motion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wave Motion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2105/progressive-waves/02-wave-equation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mathematical Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy2105/progressive-waves/03-energy-superposition.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Superposition & Energy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electrostatics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Electrostatics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2105/electrostatics/01-electric-charge-field/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electric Charge & Field
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2105/electrostatics/02-electric-flux/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electric Flux
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy2105/electrostatics/03-gauss-law.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gauss's Law
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PHY 1203
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PHY 1203
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Syllabus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../schedule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Schedule
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rotational Dynamics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Rotational Dynamics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rotational-dynamics/01-angular-motion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Angular Motion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rotational-dynamics/02-torque-angular-momentum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Torque & Angular Momentum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy1203/rotational-dynamics/03-rotational-energy.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rotational Energy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oscillations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Oscillations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oscillation/01-periodic-motion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Periodic Motion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oscillation/02-shm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Simple Harmonic Motion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy1203/oscillation/03-applications.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fluid Mechanics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fluid Mechanics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fluid-mechanics/01-pressure-buoyancy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pressure & Buoyancy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fluid-mechanics/02-fluid-flow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fluid Flow
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy1203/fluid-mechanics/03-viscosity-poiseuille.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Viscosity & Poiseuille's Law
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sound Waves
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sound Waves
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sound-waves/01-wave-properties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wave Properties
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sound-waves/02-sound-hearing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sound & Hearing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sound-waves/03-resonance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resonance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electric Charges
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Electric Charges
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-charge-field/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Charge & Electric Field
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy1203/electric-charges/02-electric-potential.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electric Potential
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_9" id="__nav_3_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioelectricity
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bioelectricity
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioelectricity/01-membrane-potential/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Membrane Potential
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioelectricity/02-nerve-signals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nerve Signals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy1203/bioelectricity/03-medical-applications.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medical Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magnetism
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Magnetism
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magnetism/01-magnetic-field/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magnetic Field
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magnetism/02-magnetic-force/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magnetic Force
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy1203/magnetism/03-applications.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MRI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MRI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mri/01-principle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Physical Principle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mri/02-magnetic-resonance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magnetic Resonance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy1203/mri/03-imaging.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MRI Imaging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../phy2106/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PHY 2106
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PHY 2106
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2106/syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Syllabus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2106/lab-guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laboratory Guidelines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../phy2106/report-guidelines.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Report Guidelines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experiments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Experiments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2106/experiments/01-experiment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experiment 01
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2106/experiments/02-experiment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experiment 02
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2106/experiments/03-experiment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experiment 03
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2106/experiments/04-experiment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experiment 04
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2106/experiments/05-experiment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experiment 05
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2106/experiments/06-experiment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experiment 06
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phy2106/experiments/07-experiment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experiment 07
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#electric-current" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Electric Current
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resistance-and-ohms-law" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resistance and Ohm's Law
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kirchhoffs-laws-and-circuit-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kirchhoff's Laws and Circuit Analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rc-circuits-and-bioelectric-membranes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RC Circuits and Bioelectric Membranes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ohmic-current-and-the-nernst-potential" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ohmic Current and the Nernst Potential
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ohmic Current and the Nernst Potential">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-nernst-potential" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Nernst Potential
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="current-resistance-and-ohms-law">Current, Resistance, and Ohm's Law<a class="headerlink" href="#current-resistance-and-ohms-law" title="Permanent link">&para;</a></h1>
+<h2 id="electric-current">Electric Current<a class="headerlink" href="#electric-current" title="Permanent link">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">Definition: Electric Current</p>
+<p>Current is the rate of charge flow:
+[
+I = \frac{\Delta Q}{\Delta t}
+\qquad [I] = \text{Ampere (A)} = \text{C/s}
+]
+<strong>Conventional current</strong> flows in the direction positive charges move (from high to low potential). In biological systems, current is carried by ions (not electrons), moving through aqueous solution and ion channels.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note: Biological Current Magnitudes</p>
+<p>Biological currents are tiny by household standards but enormous at the single-channel level:</p>
+<table>
+<thead>
+<tr>
+<th>Biological event</th>
+<th>Current</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Single ion channel (open)</td>
+<td><span class="arithmatex">\(\sim 1\)</span>–<span class="arithmatex">\(10\ \text{pA}\)</span></td>
+</tr>
+<tr>
+<td>Axon action potential</td>
+<td><span class="arithmatex">\(\sim 1\)</span>–<span class="arithmatex">\(100\ \text{nA}\)</span></td>
+</tr>
+<tr>
+<td>Cardiac pacemaker cell</td>
+<td><span class="arithmatex">\(\sim 1\ \mu\text{A}\)</span></td>
+</tr>
+<tr>
+<td>Whole-heart ECG surface current</td>
+<td><span class="arithmatex">\(\sim 1\ \text{mA}\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="resistance-and-ohms-law">Resistance and Ohm's Law<a class="headerlink" href="#resistance-and-ohms-law" title="Permanent link">&para;</a></h2>
+<div class="admonition success">
+<p class="admonition-title">Result: Resistance and Ohm's Law</p>
+<p>The resistance of a conductor of length <span class="arithmatex">\(L\)</span>, cross-section <span class="arithmatex">\(A\)</span>, and resistivity <span class="arithmatex">\(\rho\)</span> (a material property):
+[
+R = \rho\frac{L}{A}
+\qquad [R] = \Omega\ (\text{ohm})
+]
+Ohm's Law (for ohmic, i.e., linear, conductors):
+[
+V = IR
+]</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Analogy: Water Pipe Analogy — The Complete Picture</p>
+<p>The water pipe analogy is the most powerful tool for intuition:</p>
+<table>
+<thead>
+<tr>
+<th>Electrical</th>
+<th>Hydraulic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Voltage <span class="arithmatex">\(V\)</span> (V)</td>
+<td>Pressure difference (Pa)</td>
+</tr>
+<tr>
+<td>Current <span class="arithmatex">\(I\)</span> (A)</td>
+<td>Flow rate (m<span class="arithmatex">\(^3\)</span>/s)</td>
+</tr>
+<tr>
+<td>Resistance <span class="arithmatex">\(R\)</span> (<span class="arithmatex">\(\Omega\)</span>)</td>
+<td>Fluidic resistance</td>
+</tr>
+<tr>
+<td>Capacitance <span class="arithmatex">\(C\)</span> (F)</td>
+<td>Elastic reservoir</td>
+</tr>
+<tr>
+<td>Charge <span class="arithmatex">\(Q\)</span> (C)</td>
+<td>Volume of water</td>
+</tr>
+<tr>
+<td>Conductor wire</td>
+<td>Wide pipe (low resistance)</td>
+</tr>
+<tr>
+<td>Thin wire / resistor</td>
+<td>Narrow pipe (high resistance)</td>
+</tr>
+<tr>
+<td>Open switch</td>
+<td>Closed valve</td>
+</tr>
+<tr>
+<td>Battery</td>
+<td>Pump</td>
+</tr>
+</tbody>
+</table>
+<p>Ohm's law <span class="arithmatex">\(V = IR\)</span> is perfectly analogous to Poiseuille's law <span class="arithmatex">\(\Delta P = Q \cdot R_{\text{fluid}}\)</span> from the fluid mechanics chapter.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Biological Connection: Ion Channels as Resistors</p>
+<p>Each type of ion channel has a characteristic <strong>conductance</strong> <span class="arithmatex">\(g = 1/R\)</span> (siemens, S). A typical single channel has <span class="arithmatex">\(g \approx 10\)</span>–<span class="arithmatex">\(100\ \text{pS}\)</span>.</p>
+<ul>
+<li><strong>Closed channel</strong> <span class="arithmatex">\(\equiv\)</span> infinite resistance / zero conductance.</li>
+<li><strong>Open channel</strong> <span class="arithmatex">\(\equiv\)</span> finite resistance, allowing ion flow.</li>
+<li>The more channels open, the lower the total membrane resistance, and the larger the current for a given driving voltage.</li>
+<li>Drugs that block channels (e.g. tetrodotoxin blocks Na<span class="arithmatex">\(^+\)</span> channels) increase membrane resistance and prevent action potentials — used as a model toxin in neuroscience research.</li>
+</ul>
+</div>
+<h2 id="kirchhoffs-laws-and-circuit-analysis">Kirchhoff's Laws and Circuit Analysis<a class="headerlink" href="#kirchhoffs-laws-and-circuit-analysis" title="Permanent link">&para;</a></h2>
+<div class="admonition success">
+<p class="admonition-title">Result: Kirchhoff's Laws</p>
+<p><strong>Kirchhoff's Current Law (KCL)</strong>: conservation of charge —
+[
+\sum I_\text{in} = \sum I_\text{out} \qquad \text{at any junction}
+]
+<strong>Kirchhoff's Voltage Law (KVL)</strong>: conservation of energy —
+[
+\sum_{\text{loop}} V = 0 \qquad \text{around any closed loop}
+]</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Analogy: KCL as a River Junction</p>
+<p>At a river confluence (junction), the total water flowing in equals the total flowing out — water doesn't pile up at the junction. This is KCL: charge doesn't accumulate at a node (under steady state). At a river fork (branching axon), the flow splits between branches according to their widths (conductances).</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Result: Series and Parallel Resistance</p>
+<p><strong>Series:</strong> <span class="arithmatex">\(R_\text{eq} = R_1 + R_2 + \cdots\)</span> (same current through each; voltages add)</p>
+<p><strong>Parallel:</strong> <span class="arithmatex">\(\dfrac{1}{R_\text{eq}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \cdots\)</span> (same voltage across each; currents add)</p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Example: Worked Circuit — Kirchhoff's Laws</p>
+<p>A 12 V battery drives current through <span class="arithmatex">\(R_1 = 100\ \Omega\)</span> in series with <span class="arithmatex">\(R_2 = 150\ \Omega\)</span> and <span class="arithmatex">\(R_3 = 300\ \Omega\)</span> in parallel.</p>
+<p><strong>Step 1 — Parallel combination:</strong>
+[
+\frac{1}{R_{23}} = \frac{1}{150} + \frac{1}{300} = \frac{2}{300} + \frac{1}{300}
+= \frac{3}{300} \;\Rightarrow\; R_{23} = 100\ \Omega
+]
+<strong>Step 2 — Total resistance:</strong>
+[
+R_\text{eq} = R_1 + R_{23} = 100 + 100 = 200\ \Omega
+]
+<strong>Step 3 — Total current (KVL on outer loop):</strong>
+[
+I_1 = \frac{V}{R_\text{eq}} = \frac{12}{200} = 0.06\ \text{A} = 60\ \text{mA}
+]
+<strong>Step 4 — Branch currents (KCL at node):</strong> voltage across parallel pair: <span class="arithmatex">\(V_{23} = I_1 \times R_{23} = 0.06\times100 = 6\ \text{V}\)</span>
+[
+I_2 = \frac{V_{23}}{R_2} = \frac{6}{150} = 0.04\ \text{A}, \qquad
+I_3 = \frac{V_{23}}{R_3} = \frac{6}{300} = 0.02\ \text{A}
+]
+<strong>Check KCL:</strong> <span class="arithmatex">\(I_2 + I_3 = 0.04 + 0.02 = 0.06 = I_1\ \checkmark\)</span></p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Biological Connection: KCL at an Axon Branch Point</p>
+<p>When a nerve axon branches into two daughter fibres at a node, the ionic current carried by the action potential must split between the two branches according to their conductances (inverse resistances). A thicker axon (lower <span class="arithmatex">\(R\)</span>) carries more current. If one branch has much higher resistance (e.g. a thin branch to a small muscle fibre), it receives less current — Kirchhoff's current law determines exactly how much current each branch receives, and therefore whether the action potential can propagate into that branch at all.</p>
+</div>
+<h2 id="rc-circuits-and-bioelectric-membranes">RC Circuits and Bioelectric Membranes<a class="headerlink" href="#rc-circuits-and-bioelectric-membranes" title="Permanent link">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">Definition: RC Circuit</p>
+<p>A resistor <span class="arithmatex">\(R\)</span> in series with a capacitor <span class="arithmatex">\(C\)</span> connected to a voltage source <span class="arithmatex">\(V_0\)</span>. The voltage across the capacitor changes exponentially, governed by the <strong>time constant</strong> <span class="arithmatex">\(\tau = RC\)</span>.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Result: RC Charging and Discharging</p>
+<p><strong>Charging:</strong>
+[
+V_C(t) = V_0!\left(1 - e^{-t/RC}\right)
+]
+<strong>Discharging:</strong>
+[
+V_C(t) = V_0\,e^{-t/RC}
+]
+At <span class="arithmatex">\(t = \tau\)</span>: <span class="arithmatex">\(V_C \approx 63\%\)</span> of final value (charging) or <span class="arithmatex">\(37\%\)</span> remaining (discharging). After <span class="arithmatex">\(5\tau\)</span>, the capacitor is considered fully charged/discharged (<span class="arithmatex">\(&gt;99\%\)</span>).</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Analogy: RC Charging as Filling a Leaky Bucket</p>
+<p>Imagine filling a bucket (capacitor) with water from a tap through a narrow nozzle (resistor). At first, water rushes in quickly (large current) because the bucket is empty. As the bucket fills, back-pressure builds and the flow slows. Eventually the flow almost stops — the bucket is "charged." Pull out the plug (discharge) and the bucket empties fast at first, then slower. The narrower the nozzle (<span class="arithmatex">\(R\)</span>), or the larger the bucket (<span class="arithmatex">\(C\)</span>), the slower the process — the larger <span class="arithmatex">\(\tau = RC\)</span>.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Biological Connection: Neuron Membrane — A Biological RC Circuit</p>
+<p>The neuron membrane combines resistance (ion channels, <span class="arithmatex">\(R_m\)</span>) and capacitance (lipid bilayer, <span class="arithmatex">\(C_m\)</span>) in a parallel RC arrangement. The membrane time constant:
+[
+\tau_m = R_m C_m
+]
+determines how quickly the membrane potential responds to a stimulus.</p>
+<p>For a typical neuron: <span class="arithmatex">\(R_m = 40\ \text{M}\Omega\)</span>, <span class="arithmatex">\(C_m = 200\ \text{pF}\)</span>:
+[
+\tau_m = 40\times10^6 \times 200\times10^{-12} = 8\times10^{-3}\ \text{s} = 8\ \text{ms}
+]
+A stimulus briefer than <span class="arithmatex">\(\sim\tau_m\)</span> is "blurred out" by the membrane capacitance. Fast-signalling interneurons have small <span class="arithmatex">\(\tau_m\)</span> (by reducing <span class="arithmatex">\(R_m\)</span> through more open channels); integrating neurons have large <span class="arithmatex">\(\tau_m\)</span> (to average inputs over time).</p>
+<p><strong>Clinical relevance:</strong> General anaesthetics partially block Na<span class="arithmatex">\(^+\)</span> channels (<span class="arithmatex">\(\uparrow R_m \Rightarrow \uparrow \tau_m\)</span>), slowing neuronal response and suppressing consciousness.</p>
+</div>
+<h2 id="ohmic-current-and-the-nernst-potential">Ohmic Current and the Nernst Potential<a class="headerlink" href="#ohmic-current-and-the-nernst-potential" title="Permanent link">&para;</a></h2>
+<p>The current through an ion channel is not simply <span class="arithmatex">\(V/R\)</span>. What matters is not the membrane potential alone, but how far the membrane potential is from the <em>equilibrium potential</em> of that particular ion.</p>
+<div class="admonition success">
+<p class="admonition-title">Result: Ohmic Current Through an Ion Channel</p>
+<p>[
+I_x = g_x\,(V_m - E_x)
+]
+| Symbol | Meaning |
+|---|---|
+| <span class="arithmatex">\(I_x\)</span> | current of ion <span class="arithmatex">\(x\)</span> (A); positive = outward current |
+| <span class="arithmatex">\(g_x\)</span> | membrane conductance for ion <span class="arithmatex">\(x\)</span> (S = A/V = siemens) |
+| <span class="arithmatex">\(V_m\)</span> | membrane potential (V) |
+| <span class="arithmatex">\(E_x\)</span> | Nernst (equilibrium) potential for ion <span class="arithmatex">\(x\)</span> (V) |</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Analogy: Driving Force as Net Pressure</p>
+<p>Think of ion current like water through a pipe where both a pump (concentration gradient) and gravity (electrical gradient) are acting. If the pump exactly cancels gravity, there is no net flow — this is the equilibrium potential <span class="arithmatex">\(E_x\)</span>. The quantity <span class="arithmatex">\((V_m - E_x)\)</span> is the <strong>driving force</strong>: positive driving force pushes current out; negative pushes it in. Opening more channels (increasing <span class="arithmatex">\(g_x\)</span>) amplifies whichever direction the driving force dictates.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note: Sign Convention and Current Direction</p>
+<ul>
+<li>If <span class="arithmatex">\(V_m &gt; E_x\)</span>: driving force is positive, ion <span class="arithmatex">\(x\)</span> current is outward (leaving the cell, conventionally positive for a positive ion).</li>
+<li>If <span class="arithmatex">\(V_m &lt; E_x\)</span>: driving force is negative, ion <span class="arithmatex">\(x\)</span> current is inward.</li>
+<li>If <span class="arithmatex">\(V_m = E_x\)</span>: driving force is zero; <strong>no net current</strong> even if many channels are open.</li>
+</ul>
+<p>This is why Na<span class="arithmatex">\(^+\)</span> channels, once open during an action potential, drive the membrane toward <span class="arithmatex">\(E_{\text{Na}} \approx +60\ \text{mV}\)</span> and then current stops — it cannot overshoot the Nernst potential.</p>
+</div>
+<h3 id="the-nernst-potential">The Nernst Potential<a class="headerlink" href="#the-nernst-potential" title="Permanent link">&para;</a></h3>
+<div class="admonition abstract">
+<p class="admonition-title">Derivation: Why the Nernst Potential Exists</p>
+<p>An ion <span class="arithmatex">\(X\)</span> is at equilibrium when two opposing tendencies exactly cancel:</p>
+<ol>
+<li><strong>Concentration gradient:</strong> ion <span class="arithmatex">\(X\)</span> diffuses from high <span class="arithmatex">\([X]\)</span> to low <span class="arithmatex">\([X]\)</span> (random thermal motion).</li>
+<li><strong>Electrical gradient:</strong> the membrane voltage creates an electric force opposing diffusion (since the diffusing ion carries charge).</li>
+</ol>
+<p>At equilibrium the electrochemical potential is equal on both sides. Setting the entropy-driven diffusion energy equal to the electrical work gives the Nernst equation.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Result: Nernst Equation</p>
+<p>[
+E_x = \frac{RT}{zF}\ln\frac{[X]<em>\text{out}}{[X]</em>\text{in}}
+]
+| Symbol | Meaning |
+|---|---|
+| <span class="arithmatex">\(R = 8.314\ \text{J/(mol\,K)}\)</span> | gas constant |
+| <span class="arithmatex">\(T\)</span> | absolute temperature (K) |
+| <span class="arithmatex">\(z\)</span> | ionic valence (e.g. <span class="arithmatex">\(+1\)</span> for K<span class="arithmatex">\(^+\)</span>, <span class="arithmatex">\(-1\)</span> for Cl<span class="arithmatex">\(^-\)</span>, <span class="arithmatex">\(+2\)</span> for Ca<span class="arithmatex">\(^{2+}\)</span>) |
+| <span class="arithmatex">\(F = 96{,}485\ \text{C/mol}\)</span> | Faraday constant |</p>
+<p>At body temperature (<span class="arithmatex">\(T = 310\ \text{K}\)</span>), <span class="arithmatex">\(RT/F \approx 26.7\ \text{mV}\)</span>, so:
+[
+E_x \approx \frac{26.7}{z}\ln\frac{[X]<em>\text{out}}{[X]</em>\text{in}}\ \text{mV}
+\qquad \text{or} \qquad
+\frac{61.5}{z}\log_{10}\frac{[X]<em>\text{out}}{[X]</em>\text{in}}\ \text{mV}
+]</p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Example: Nernst Potentials for Key Ions at 310 K</p>
+<p>Using the intracellular and extracellular concentrations from the ion table in the Charges chapter:</p>
+<p><strong>Potassium K<span class="arithmatex">\(^+\)</span> (<span class="arithmatex">\(z=+1\)</span>):</strong>
+[
+E_K = 26.7\ln\frac{5}{140} = 26.7\times(-3.332) \approx -89\ \text{mV}
+]
+<strong>Sodium Na<span class="arithmatex">\(^+\)</span> (<span class="arithmatex">\(z=+1\)</span>):</strong>
+[
+E_{\text{Na}} = 26.7\ln\frac{145}{12} = 26.7\times 2.493 \approx +67\ \text{mV}
+]
+<strong>Chloride Cl<span class="arithmatex">\(^-\)</span> (<span class="arithmatex">\(z=-1\)</span>):</strong>
+[
+E_{\text{Cl}} = \frac{26.7}{-1}\ln\frac{116}{4} = -26.7\times 3.367 \approx -90\ \text{mV}
+]
+<strong>Calcium Ca<span class="arithmatex">\(^{2+}\)</span> (<span class="arithmatex">\(z=+2\)</span>):</strong>
+[
+E_{\text{Ca}} = \frac{26.7}{2}\ln\frac{2}{0.0001} = 13.35\times 9.903 \approx +132\ \text{mV}
+]</p>
+<p>The resting membrane potential (<span class="arithmatex">\(-70\ \text{mV}\)</span>) lies between <span class="arithmatex">\(E_K\)</span> and <span class="arithmatex">\(E_{\text{Na}}\)</span>, pulled toward <span class="arithmatex">\(E_K\)</span> by the high resting K<span class="arithmatex">\(^+\)</span> permeability.</p>
+</div>
+<p><img alt="Nernst potentials for K+, Cl-, Na+, and Ca2+ compared to the resting membrane potential" src="assets/nernst-chart.png" /></p>
+<div class="admonition question">
+<p class="admonition-title">Biological Connection: Goldman Equation — Extending the Nernst Equation</p>
+<p>The resting membrane potential is not set by a single ion but by all permeable ions simultaneously. The <strong>Goldman–Hodgkin–Katz (GHK) equation</strong> generalises the Nernst equation:
+[
+V_m = \frac{RT}{F}\ln
+\frac{P_K[K^+]<em Na="Na">o + P</em>[Na^+]<em Cl="Cl">o + P</em>[Cl^-]<em Na="Na">i}
+{P_K[K^+]_i + P</em>[Na^+]<em Cl="Cl">i + P</em>
+]
+where }[Cl^-]_o<span class="arithmatex">\(P_x\)</span> is the permeability of ion <span class="arithmatex">\(x\)</span>. At rest, <span class="arithmatex">\(P_K \gg P_{Na}\)</span>, so <span class="arithmatex">\(V_m \approx E_K\)</span>. During an action potential, Na<span class="arithmatex">\(^+\)</span> channels open, <span class="arithmatex">\(P_{Na}\)</span> surges, and <span class="arithmatex">\(V_m\)</span> shifts rapidly toward <span class="arithmatex">\(E_{Na} \approx +67\ \text{mV}\)</span>. This is the physical basis of the depolarisation phase — covered in full in the next chapter.</p>
+</div>
+<h2 id="practice-problems">Practice Problems<a class="headerlink" href="#practice-problems" title="Permanent link">&para;</a></h2>
+<p><strong>5. Circuit Analysis (KCL/KVL).</strong> A 12 V battery, <span class="arithmatex">\(R_1 = 100\ \Omega\)</span> in series, <span class="arithmatex">\(R_2 = 150\ \Omega\)</span> and <span class="arithmatex">\(R_3 = 300\ \Omega\)</span> in parallel. Find total current, branch currents, and voltage drop across <span class="arithmatex">\(R_1\)</span>.</p>
+<p><strong>6. RC Time Constant.</strong> A neuron has <span class="arithmatex">\(R_m = 20\ \text{M}\Omega\)</span> and <span class="arithmatex">\(C_m = 0.5\ \mu\text{F}\)</span>.</p>
+<p>(a) Calculate <span class="arithmatex">\(\tau\)</span>.
+(b) What fraction of the final voltage is reached after <span class="arithmatex">\(t = 2\tau\)</span>?
+(c) After how long (in <span class="arithmatex">\(\tau\)</span>) is 95% of the final voltage reached?</p>
+<p><strong>7. Power Dissipation.</strong> An ion channel carries a current <span class="arithmatex">\(I = 50\ \text{pA}\)</span> at a driving force of <span class="arithmatex">\(V_m - E_x = -65\ \text{mV}\)</span>. Calculate the power dissipated.</p>
+<p><strong>8. Nernst Potential.</strong> Calculate the Nernst potential for K<span class="arithmatex">\(^+\)</span> at <span class="arithmatex">\(T = 310\ \text{K}\)</span>, given <span class="arithmatex">\([\text{K}^+]_{\text{in}} = 140\ \text{mM}\)</span> and <span class="arithmatex">\([\text{K}^+]_{\text{out}} = 5\ \text{mM}\)</span>.</p>
+<p><strong>9. Nernst Potential — Calcium.</strong> Ca<span class="arithmatex">\(^{2+}\)</span> has <span class="arithmatex">\([\text{Ca}^{2+}]_{\text{in}} = 0.0001\ \text{mM}\)</span> and <span class="arithmatex">\([\text{Ca}^{2+}]_{\text{out}} = 2\ \text{mM}\)</span> at <span class="arithmatex">\(T = 310\ \text{K}\)</span>. Calculate <span class="arithmatex">\(E_{\text{Ca}}\)</span>.</p>
+<p><strong>10. Ohmic Current.</strong> A membrane has K<span class="arithmatex">\(^+\)</span> conductance <span class="arithmatex">\(g_K = 5\ \text{nS}\)</span> and <span class="arithmatex">\(E_K = -90\ \text{mV}\)</span>. If <span class="arithmatex">\(V_m = -70\ \text{mV}\)</span>:</p>
+<p>(a) Calculate <span class="arithmatex">\(I_K\)</span>.
+(b) State the direction of K<span class="arithmatex">\(^+\)</span> current (inward or outward).</p>
+<p><strong>11. Parallel Resistance Network.</strong> Three ion channel types have conductances <span class="arithmatex">\(g_1 = 10\ \text{nS}\)</span>, <span class="arithmatex">\(g_2 = 5\ \text{nS}\)</span>, <span class="arithmatex">\(g_3 = 2\ \text{nS}\)</span>. They are all open simultaneously. Find the total membrane conductance and total resistance <span class="arithmatex">\(R_m\)</span>.</p>
+<p><strong>12. Conceptual.</strong> The Nernst potential for K<span class="arithmatex">\(^+\)</span> is <span class="arithmatex">\(\approx -90\ \text{mV}\)</span> and for Na<span class="arithmatex">\(^+\)</span> is <span class="arithmatex">\(\approx +67\ \text{mV}\)</span>. The resting membrane potential is <span class="arithmatex">\(\approx -70\ \text{mV}\)</span>. Which ion is closer to equilibrium at rest? What does this imply about which ion carries most of the resting current?</p>
+<p><strong>13. Conceptual.</strong> Describe how Kirchhoff's current law applies to a branching axon. If one branch has twice the diameter of the other, how does this affect the fraction of current entering each branch?</p>
+<p><strong>14. Conceptual.</strong> A patient is given a drug that increases membrane resistance <span class="arithmatex">\(R_m\)</span> tenfold while leaving <span class="arithmatex">\(C_m\)</span> unchanged. How does the membrane time constant <span class="arithmatex">\(\tau_m\)</span> change? How does this affect the neuron's ability to follow rapidly changing inputs?</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
